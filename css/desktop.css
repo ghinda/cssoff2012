@@ -1,0 +1,129 @@
+/* ===== WVP ===== */
+
+/* === top nav === */
+nav {
+	position: fixed;
+	
+	font-size: 1.286em; /* 18px */
+}
+
+/* header slime */
+
+/* whould have used body:after for this, but transitions and animations don't work
+ * on pseudo-elements: http://css-tricks.com/13555-transitions-and-animations-on-css-generated-content/ 
+ */
+.header-slime {
+	position: absolute;
+	top: -198px;
+	left: 50%;
+	z-index: 0;
+	
+	display: block;
+	width: 1271px;
+	height: 1112px;
+	margin-left: -635px;
+	background: url(../images/header-slime.png);
+
+	-webkit-animation: rotateSlime 150s infinite linear;	
+	-moz-animation: rotateSlime 150s infinite linear;	
+	-o-animation: rotateSlime 150s infinite linear;	
+	animation: rotateSlime 150s infinite linear;	
+}
+
+@-webkit-keyframes rotateSlime {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform:rotate(360deg);
+	}
+}
+
+@-moz-keyframes rotateSlime {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+	to {
+		-moz-transform:rotate(360deg);
+	}
+}
+
+@-o-keyframes rotateSlime {
+	from {
+		-o-transform: rotate(0deg);
+	}
+	to {
+		-o-transform:rotate(360deg);
+	}
+}
+
+@keyframes rotateSlime {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform:rotate(360deg);
+	}
+}
+
+/* === sections === */
+article {
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* === obstacles === */
+#obstacles ul {
+	float: left;
+	width: 480px;
+}
+
+#obstacles .tab {
+	position: relative;
+	float: left;
+	width: 440px;
+	height: 700px;
+}
+
+#obstacles .tab img {
+	display: block;
+	margin: 30px auto 0 auto;
+}
+
+/* === prizes === */
+#prizes .casio-prize {
+	margin-top: 60px;
+}
+
+#prizes .casio-prize + a {
+	margin-top: -140px;
+}
+
+/* === contestant === */
+#contestant form {
+	float: left;
+	width: 360px;
+}
+
+#contestant .countdown {
+	float: right;
+	width: 50%;
+}
+
+/* === footer === */
+footer address p, .terms p {
+	position: relative;
+	left: 50%;
+	
+	float: left;
+	width: 310px;
+	margin-left: -320px;
+	
+	text-align: right;
+}
+
+footer address p + p, .terms p + p {
+	margin-left: 10px;
+	
+	text-align: left;
+}

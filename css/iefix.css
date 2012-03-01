@@ -1,0 +1,66 @@
+/* ===== IE fixes - let ie8 users still get abitalovin' ===== */
+
+nav {
+	background:transparent;
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#15000000,endColorstr=#15000000)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#15000000,endColorstr=#15000000);
+	zoom: 1;
+}
+
+nav ul li {
+	display: inline;
+}
+
+.dark-nav {
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#70000000,endColorstr=#70000000)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#70000000,endColorstr=#70000000);
+}
+
+header h2 {
+	background: #7fc1d6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.DropShadow(OffX=3, OffY=3, Color=#ffffff)";
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.DropShadow(OffX=3, OffY=3, Color=#ffffff);
+}
+
+.tab a {
+	zoom: 1;
+	padding: 40px 0 100px 0;
+}
+
+.tab a h1, .tab a p {
+	zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#cccccc) progid:DXImageTransform.Microsoft.DropShadow(OffX=3, OffY=3, Color=#30000000) progid:DXImageTransform.Microsoft.Matrix(M11=0.99026807, M12=0.13917310, M21=-0.13917310, M22=0.99026807,sizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#cccccc) progid:DXImageTransform.Microsoft.DropShadow(OffX=3, OffY=3, Color=#30000000) progid:DXImageTransform.Microsoft.Matrix(M11=0.99026807, M12=0.13917310, M21=-0.13917310, M22=0.99026807,sizingMethod='auto expand');	
+}
+
+.tab a:hover, .tab a:focus {
+	zoom: 1;
+	margin-left: -100px;
+	background-color: #fb5a30;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#fb5a30) progid:DXImageTransform.Microsoft.Matrix(M11=1.2, M12=0, M21=0, M22=1.1, SizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#fb5a30) progid:DXImageTransform.Microsoft.Matrix(M11=1.2, M12=0, M21=0, M22=1.1, SizingMethod='auto expand');
+}
+
+#prizes a:hover, #prizes a:focus {
+	zoom: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=1.0892948756157277, M12=0.153090411056071, M21=-0.153090411056071, M22=1.0892948756157277, SizingMethod='auto expand')";
+   filter: progid:DXImageTransform.Microsoft.Matrix(M11=1.0892948756157277, M12=0.153090411056071, M21=-0.153090411056071, M22=1.0892948756157277, SizingMethod='auto expand');
+}
+
+.countdown p {
+	background-color: #7fc1d6;	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.DropShadow(OffX=3, OffY=3, Color=#20000000)";
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.DropShadow(OffX=3, OffY=3, Color=#20000000);
+}
+
+form button {
+	zoom: 1;
+	background-color: #7fc1d6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.Matrix(M11=0.99026807, M12=0.13917310, M21=-0.13917310, M22=0.99026807,sizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.Matrix(M11=0.99026807, M12=0.13917310, M21=-0.13917310, M22=0.99026807,sizingMethod='auto expand');
+}
+
+form button:hover, form button:focus {	
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.Matrix(M11=0.99026807, M12=0.13917310, M21=-0.13917310, M22=0.99026807,sizingMethod='auto expand') progid:DXImageTransform.Microsoft.Matrix(M11=1.2, M12=0, M21=0, M22=1.1, SizingMethod='auto expand')";
+	filter: progid:DXImageTransform.Microsoft.Chroma(Color=#7fc1d6) progid:DXImageTransform.Microsoft.Matrix(M11=0.99026807, M12=0.13917310, M21=-0.13917310, M22=0.99026807,sizingMethod='auto expand') progid:DXImageTransform.Microsoft.Matrix(M11=1.2, M12=0, M21=0, M22=1.1, SizingMethod='auto expand');
+}
